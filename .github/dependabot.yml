@@ -11,9 +11,8 @@ updates:
       interval: "daily"
     groups:
       mygroup3:
-        exclude-patterns:
-          - "used-by"
-          - "atlassian-api-py"
+        patterns:
+          - "*"
       mygroup1:
         patterns:
           - "used-by"
