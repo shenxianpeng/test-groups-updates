@@ -11,14 +11,12 @@ updates:
       interval: "daily"
     groups:
       mygroup3:
-        patterns:
-          - "*"
         exclude-patterns:
-          - "cpp-linter"
-          - "clang-tools"
+          - "used-by"
+          - "atlassian-api-py"
       mygroup1:
         patterns:
-          - "cpp-linter"
+          - "used-by"
       mygroup2:
         patterns:
-          - "clang-tools"
+          - "atlassian-api-py"
