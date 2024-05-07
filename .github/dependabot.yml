@@ -11,6 +11,8 @@ updates:
       interval: "daily"
     groups:
       mygroup3:
+        patterns:
+          - "*"
         exclude-patterns:
           - "cpp-linter"
           - "clang-tools"
