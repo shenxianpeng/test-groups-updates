@@ -10,6 +10,10 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      python-package:
+      cpp-linter:
         patterns:
-          - "*"
+          - "cpp-linter"
+          - "clang-tools"
+      rest-package:
+        exclude-patterns:
+          - "cpp-linter"
