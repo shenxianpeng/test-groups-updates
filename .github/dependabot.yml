@@ -10,10 +10,13 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      cpp-linter:
+      mygroup1:
         patterns:
           - "cpp-linter"
+      mygroup2:
+        patterns:
           - "clang-tools"
-      rest-package:
+      mygroup3:
         exclude-patterns:
-          - "cpp-linter"
+          - "mygroup1"
+          - "mygroup2"
