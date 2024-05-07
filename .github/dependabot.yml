@@ -12,8 +12,8 @@ updates:
     groups:
       mygroup3:
         exclude-patterns:
-          - "mygroup1"
-          - "mygroup2"
+          - "cpp-linter"
+          - "clang-tools"
       mygroup1:
         patterns:
           - "cpp-linter"
