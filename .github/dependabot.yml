@@ -10,12 +10,12 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      mygroup3:
-        patterns:
-          - "*"
       mygroup1:
         patterns:
           - "used-by"
       mygroup2:
         patterns:
           - "atlassian-api-py"
+      mygroup3:
+        patterns:
+          - "*"
