@@ -2,6 +2,6 @@ cpp-linter==1.8.0
 clang-tools==0.11.4
 cpp-linter-hooks==0.4.0
 used-by==0.1.1
-atlassian-api-py==0.5.1
+atlassian-api-py==0.5.2
 pip==23.3.2
 twine==4.0.2
