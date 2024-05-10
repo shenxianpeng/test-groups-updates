@@ -1,7 +1,7 @@
-cpp-linter==1.8.0
-clang-tools==0.11.4
-cpp-linter-hooks==0.4.0
+cpp-linter==1.9.1
+clang-tools==0.12.1
+cpp-linter-hooks==0.4.1
 used-by==0.1.1
 atlassian-api-py==0.5.1
-pip==23.3.2
-twine==4.0.2
+pip==24.0
+twine==5.0.0
